@@ -1,4 +1,7 @@
 @charset "utf-8";
+* {
+  box-sizing: border-box;
+}
 header.row h2 {
 	color: #DD10C3;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
@@ -69,11 +72,19 @@ nav.row .nav.navbar-nav {
 nav.row .navbar {
 	margin-bottom: 0px;
 }
-nav.row .nav.navbar-nav > li > a:link
+nav.row .nav.navbar-nav ul
+{
+	 list-style-type: none;
+         margin: 0;
+       padding: 0;
+}	
+	
+
+nav.row .nav.navbar-nav >ul> li > a:link
 {
 	text-decoration:none;
 }
-}
+
 
 nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
 	border-left: 1px solid #0AE;
