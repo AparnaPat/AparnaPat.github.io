@@ -69,12 +69,14 @@ nav.row .nav.navbar-nav {
 nav.row .navbar {
 	margin-bottom: 0px;
 }
+
 nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
 	border-left: 1px solid #0AE;
 	border-right: 1px solid #003377;
 	border-bottom: 1px solid #003377;
 	border-top: 1px solid #0AE;
 	color: #FFC;
+	text-decoration:none;
 }
 nav.row .nav.navbar-nav > li > a:hover {
 	background-image: -webkit-linear-gradient(90deg,rgba(0,102,153,1.00) 0%,rgba(0,170,238,1.00) 100%);
