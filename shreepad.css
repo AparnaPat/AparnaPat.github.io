@@ -1,6 +1,7 @@
 @charset "utf-8";
 * {
   box-sizing: border-box;
+  margin: 0px auto;
 }
 header.row h2 {
 	color: #DD10C3;
